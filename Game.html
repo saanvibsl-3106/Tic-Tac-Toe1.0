@@ -1,0 +1,101 @@
+<html>
+
+<head>
+    <title>Tic-Tac-Toe</title>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" crossorigin="anonymous"></script>
+    <script src="Game_functions.js"></script>
+    <link rel="stylesheet" href="Game_Style.css">
+</head>
+<!--------------------------------------------------------------------------------------------------------------------------- -->
+
+<body>
+
+    <div class="headingdiv">
+        <div id="headingtxt">
+            <div id="ticTac"><div id="subdivTic"></div><div id="subDivTac">Tic-Tac-Toe</div></div>
+            <div id="btonSt"><input type="button" id="start" value="Start New Game"></div>
+        </div>
+    </div>
+    <div  id="mainbx">
+        <!--Dviding Main div into three sub divs for points of two playrs and main gameplay-->
+        <!-- ----------------------------------------------Code for Player 1------------------------------------------------------- -->
+        <div class="subcontainerPlayer1">
+            <div class="playr1div">
+
+                <div class="headingPlayer">
+                    <div class="headingtext" id="PN1">Player-1</div>
+                </div>
+                <br>
+                <div class="scoreplayer1">
+                    <div class="scorehead">Matches Won</div>
+                </div>
+                <div class="scoreplayer1">
+                    <div class="scorehead" id="scorep1">0</div>
+                </div>
+                <div class="scoreplayer1">
+                    <div id="turn1">Your Turn</div>
+                </div>
+                <div class="scoreplayer1">
+                    <div class="TurnIndicator" id="winp1"></div>
+                </div>
+
+            </div>
+        </div>
+        <!-- ----------------------------------Main Game code start-------------------------------------------- -->
+        <div class="subcontainerGame">
+            <div class="gameBox">
+                <div class="gamesubcol">
+                    <div class="gamesubrow" id="box1"></div>
+                    <div class="gamesubrow" id="box2"></div>
+                    <div class="gamesubrow" id="box3"></div>
+
+                </div>
+                <div class="gamesubcol">
+                    <div class="gamesubrow" id="box4"></div>
+                    <div class="gamesubrow" id="box5"></div>
+                    <div class="gamesubrow" id="box6"></div>
+
+                </div>
+                <div class="gamesubcol">
+                    <div class="gamesubrow" id="box7"></div>
+                    <div class="gamesubrow" id="box8"></div>
+                    <div class="gamesubrow" id="box9"></div>
+                </div>
+            </div>
+            <div class="btttn">
+                <input type="button" value="Next Match" id="PlayAgain"> &nbsp;&nbsp;
+                <input type="button" value="Reset" id="Reset">&nbsp;&nbsp;
+                <input type="button" value="Result" id="Reselt">
+            </div>
+
+        </div>
+        <!-- ----------------------------------Main Game code end-------------------------------------------- -->
+        <div class="subcontainerPlayer2">
+            <div class="playr1div">
+                <div class="headingPlayer">
+                    <div class="headingtext" id="PN2">Player-2</div>
+                </div>
+                <br>
+                <div class="scoreplayer1">
+                    <div class="scorehead">Matches Won</div>
+                </div>
+                <div class="scoreplayer1">
+                    <div class="scorehead" id="scorep2">0</div>
+                </div>
+                <div class="scoreplayer1">
+                    <div id="turn2"></div>
+                </div>
+                <div class="scoreplayer1">
+                    <div class="TurnIndicator" id="winp2"></div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+    </div>
+</body>
+
+</html>

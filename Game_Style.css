@@ -1,0 +1,196 @@
+body{
+    background-color: black;
+}
+.headingdiv{
+    width: 100%;
+    height: 60px;
+    text-align: center;
+   
+}
+#headingtxt{
+    width: 100%;
+    font-size: 50px;
+    color: white;
+    display: flex;
+   flex-direction: row;
+}
+#ticTac{
+    width: 900px;
+    margin-left: 30px;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 300px;
+}
+#subdivTic{
+    width: 120px;
+
+}
+#start{
+    text-align: right;
+    width: 250px;
+    height: 50px;
+    border: #fff;
+    font-size: 30px;
+background-color: #fff;
+color: black;
+font-weight: bold;
+margin-top: 5px;
+border-radius: 15px;
+}
+#mainbx{
+    width: 1225px;
+    height: 88%;
+    display: flex;
+    flex-direction: row;
+    display: none;
+}
+.subcontainerPlayer1{
+   width: 350px;
+float: left;
+}
+.subcontainerGame{
+   width: 524px;
+text-align: center;
+float: left;
+    
+}
+.subcontainerPlayer2{
+   width: 350px;
+float: left;
+
+}
+.gameBox{
+    width: 450px;
+    height: 350px;
+margin-top: 70px;    
+ margin-left: 37px;
+ margin-bottom: 30px;
+}
+.gamesubcol{
+    width: 450px;
+    height: 116.6px;
+    display: flex;
+    flex-direction: row;
+}
+.gamesubrow{
+    border: 2px solid white;
+     height: 116.6px;
+    width: 150px;
+    transition: ease all 1s;
+    font-size: 90px;
+    color: orangered;
+
+
+}
+.gamesubrow:hover{
+    transform: scale(1.2);
+    transition: ease all 1s;
+    background-color: #fff;
+}
+.gamesubrow:active{
+    transform: translatez(15px);
+}
+.playr1div{
+    width: 280px;
+    height: 350px;
+margin-top: 70px;    
+ margin-left: 30px; 
+ border: 2px solid white;
+}
+.headingPlayer{
+    width: 280px;
+    height: 60px;
+ text-align: center;
+}
+.headingtext{
+    font-size: 30px;
+    color: white;
+    padding-top: 15px;
+}
+.scoreplayer1{
+    width: 280px;
+    height: 60px;
+ text-align: center;
+}
+.scorehead{
+    font-size: 30px;
+    color: white;
+    padding-top: 15px;
+}
+#turn2{
+    font-size: 40px;
+    color: white;
+    padding-top: 15px;
+}
+.TurnIndicator{
+    font-size: 40px;
+    color: white;
+    padding-top: 15px;
+}
+#turn1{
+    font-size: 40px;
+    color: white;
+    padding-top: 15px;
+}
+#PlayAgain{
+    width: 120px;
+    height: 30px;
+    border-radius: 50px;
+    transition: ease all 1s;
+    font-size: 15px;
+    font-weight: 900;
+    color: black;
+    background-color: #fff;
+    display: none;
+    
+}
+#PlayAgain:hover{
+    transform: scale(1.3);
+    transition: ease all 1s;
+}
+#Reselt{
+    width: 100px;
+    height: 30px;
+    border-radius: 50px;
+    transition: ease all 1s;
+    font-size: 20px;
+    font-weight: bolder;
+    color: black;
+    background-color: #fff;
+}
+#Reselt:hover{
+    transform: scale(1.3);
+    transition: ease all 1s;
+}
+#Reselt:active{
+    transform: translateZ(15px);
+}
+#Reset{
+    width: 100px;
+    height: 30px;
+    border-radius: 50px;
+    transition: ease all 1s;
+    font-size: 20px;
+    font-weight: bolder;
+    color: black;
+    background-color: #fff;
+
+}
+#Reset:hover{
+    transform: scale(1.3);
+    transition: ease all 1s;
+}
+#Reset:active{
+    transform: translateZ(15px);
+}
+#PlayAgain:active{
+    transform: translateZ(15px);
+
+}
+#start:hover{
+    transform: scale(1.2);
+}
+#start:active{
+    transform: translateZ(15px);
+}
